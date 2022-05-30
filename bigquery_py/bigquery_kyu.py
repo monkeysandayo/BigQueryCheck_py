@@ -94,7 +94,7 @@ def checkDatahub(idx_arr,df_csv):
 
 rand_num = generateRand()
 checkDeleted(df_csv)    
-found_idx = [30,32,82,83,86,87]
+found_idx = [30,32,44,82,83,86,87]
 checkDatahub(found_idx,df_csv)
  
 df_csv.to_csv (f'../csv/result_{project_name}_{rand_num}.csv', index = None, header=True) 
